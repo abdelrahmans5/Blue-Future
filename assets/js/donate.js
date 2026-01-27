@@ -125,9 +125,9 @@ function showSuccessMessage(donationData) {
 
 function saveDonationRecord(donationData) {
     try {
-        const donations = JSON.parse(localStorage.getItem('nileguardDonations')) || [];
+        const donations = JSON.parse(localStorage.getItem('Blue FutureDonations')) || [];
         donations.push(donationData);
-        localStorage.setItem('nileguardDonations', JSON.stringify(donations));
+        localStorage.setItem('Blue FutureDonations', JSON.stringify(donations));
     } catch (err) {
         console.warn('Could not save donation record:', err);
     }

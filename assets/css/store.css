@@ -482,7 +482,7 @@
     height: 100vh;
     background: #fff;
     box-shadow: -4px 0 16px rgba(0, 0, 0, 0.2);
-    z-index: 9999;
+    z-index: 99999999;
     transition: right 0.3s ease;
     overflow-y: auto;
     display: flex;
