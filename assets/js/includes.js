@@ -76,7 +76,7 @@ const footerHTML = `
             </div>
             <div class="col-md-3">
                 <h5 class="fw-bold mb-3">Contact Us</h5>
-                <div class="mb-2"><span class="me-2">📍</span><span class="text-secondary">Cairo, Egypt</span></div>
+                <div class="mb-2"><span class="me-2">📍</span><span class="text-secondary">Egypt</span></div>
                 <div class="mb-2"><span class="me-2">✉️</span><a href="mailto:info@bluefuture.org" class="text-secondary text-decoration-none">info@bluefuture.org</a></div>
                 <div><span class="me-2">📞</span><a href="tel:+201234567890" class="text-secondary text-decoration-none">+20 123 456 7890</a></div>
             </div>
