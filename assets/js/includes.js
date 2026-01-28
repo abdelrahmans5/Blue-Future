@@ -13,7 +13,7 @@ const navbarHTML = `
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="index.html">
-            <img src="assets/img/BLue_FutUre-removebg-preview.png" alt="Blue Future " class="me-2" style="height: 40px;">
+            <img src="assets/img/logo.png" alt="Blue Future " class="me-2" style="height: 40px;">
             <span class="brand-text">Blue Future</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,7 +43,7 @@ const footerHTML = `
         <div class="row mb-4">
             <div class="col-md-3 mb-4 mb-md-0">
                 <div class="d-flex align-items-center mb-3">
-                    <img src="assets/img/BLue_FutUre-removebg-preview.png" alt="Blue Future Logo" class="me-2" style="height: 40px;">
+                    <img src="assets/img/logo.png" alt="Blue Future Logo" class="me-2" style="height: 40px;">
                     <span class="fw-bold fs-5">Blue Future</span>
                 </div>
                 <p class="text-secondary mb-3">Protecting the Nile River and raising awareness about global water scarcity.</p>
