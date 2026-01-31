@@ -74,7 +74,8 @@
     box-shadow: 0 10px 26px rgba(0, 0, 0, 0.15);
 }
 
-.hero-stat .stat-value {
+.hero-stat .stat-value,
+.hero-stat .hero-stat-value {
     display: block;
     font-size: 1.45rem;
     font-weight: 800;

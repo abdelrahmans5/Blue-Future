@@ -68,6 +68,51 @@
     transition: all 0.3s ease;
 }
 
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .page-header {
+        height: auto;
+        min-height: 60vh;
+        padding: 3rem 1rem;
+    }
+
+    .cta-join {
+        margin-bottom: 2rem !important;
+    }
+
+    .stats-section {
+        position: relative !important;
+        bottom: auto !important;
+        margin-top: 2rem;
+    }
+
+    .com-num {
+        flex-direction: column;
+        gap: 1rem !important;
+    }
+
+    .com-num .stat-card {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .page-header h3 {
+        font-size: 1.8rem;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
+    .cta-join .btn-primary {
+        font-size: 1rem;
+        padding: 0.7rem 1.5rem;
+    }
+}
+
 .com-num .stat-card:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-xl);

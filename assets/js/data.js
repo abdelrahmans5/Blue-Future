@@ -193,22 +193,19 @@ function animateStats() {
             yearElement.textContent = '(2023 data)';
         }
 
-        // Animate counter
-        if (typeof CountUp !== 'undefined') {
-            const countUp = new CountUp(valueElement, finalValue, {
+        // Animate counter with GSAP
+        if (typeof gsap !== 'undefined') {
+            const obj = { value: 0 };
+            gsap.to(obj, {
+                value: finalValue,
                 duration: 2.5,
-                decimal: '.',
-                suffix: ' ' + unit,
-                decimals: decimals
+                ease: "power2.out",
+                onUpdate: function () {
+                    valueElement.textContent = obj.value.toFixed(decimals) + ' ' + unit;
+                }
             });
-
-            if (!countUp.error) {
-                countUp.start();
-            } else {
-                valueElement.textContent = finalValue + ' ' + unit;
-            }
         } else {
-            valueElement.textContent = finalValue + ' ' + unit;
+            valueElement.textContent = finalValue.toFixed(decimals) + ' ' + unit;
         }
     });
 }
