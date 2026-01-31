@@ -235,6 +235,30 @@ p {
     padding-right: 0;
 }
 
+/* Mobile responsive navbar */
+@media (max-width: 991px) {
+    .navbar {
+        padding: 1rem 1.5rem !important;
+    }
+
+    .navbar-collapse {
+        margin-top: 1rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-link {
+        padding: 0.75rem 1rem !important;
+    }
+
+    .donate-link {
+        display: inline-block;
+        margin: 0.5rem auto !important;
+    }
+}
+
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: 700;
